@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DubaPets Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  </style>
+  <link rel="icon" href="img/dubalogo.jpg" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>DubaPets</h1>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre Nosotros</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="intro">
+      <div class="intro-content">
+        <div class="intro-text">
+          <h2>DubaPets</h2>
+          <p>Regístrate para conocer el catálogo de nuestros productos y de nuestras mascotas.</p>
+        </div>
+        <div class="intro-form">
+          <form action="/submit" method="POST">
+            <input type="text" placeholder="Nombre"><br>
+            <input type="email" placeholder="Tu correo electrónico"><br>
+            <button type="submit" class="btn">Registrarse</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una tienda dedicada a proporcionar los mejores productos y servicios para tus mascotas.</p>
+    <div class="about-container">
+      <div class="about-item">
+        <i class="fas fa-paw"></i>
+        <h3>Amor por las Mascotas</h3>
+        <p>Nuestro amor por las mascotas nos impulsa a ofrecer solo lo mejor.</p>
+      </div>
+      <div class="about-item">
+        <i class="fas fa-certificate"></i>
+        <h3>Calidad Garantizada</h3>
+        <p>Garantizamos la calidad de todos nuestros productos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="productos">
+    <h2>Productos</h2>
+    <div class="productos-container">
+      <div class="producto">
+        <img src="img/dog.jpg" alt="Ropa para perro">
+        <h3>Ropa Para Perro</h3>
+        <p>Arropa a tu pequeñín con una linda ropa para perro.</p>
+      </div>
+      <div class="producto">
+        <img src="img/bebederopajaro.jpg" alt="Bebedero de Colibrí">
+        <h3>Bebedero de Colibrí</h3>
+        <p>Bebedero para tus colibríes.</p>
+      </div>
+      <div class="producto">
+        <img src="img/comederodepajaro.jpg" alt="Semillero Para Pájaros">
+        <h3>Semillero Para Pájaros</h3>
+        <p>Semillero para tus pájaros.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <div class="blog-container">
+      <div class="blog-publicacion">
+        <img src="img/pezbg.jpg" alt="Blog Post 1">
+        <h3>Consejos para el Cuidado de Mascotas</h3>
+        <p>Aprende cómo cuidar mejor a tus mascotas con nuestros consejos útiles.</p>
+        <br>
+        <!--<a href="#" class="btn">Leer Más</a>-->
+      </div>
+      <div class="blog-publicacion">
+        <img src="img/pez.jpg" alt="Blog Post 2">
+        <h3>La Mejor Alimentación para tu Mascota</h3>
+        <p>Descubre las mejores opciones de alimentación para tu amigo peludo.</p>
+        <br>
+        <!--<a href="#" class="btn">Leer Más</a>-->
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div>
+      <h2>Contacto</h2>
+      <p>Email: dubapets@gmail.com</p>
+      <p>Teléfono: +123 456 789</p>
+      <p>Dirección: Calle Salónica 134a, Valle delta, León, Guanajuato</p>
+    </div>
+    <div class="iconos-sociales">
+      <a href="https://www.facebook.com/dubapets"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/dubapets/"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
